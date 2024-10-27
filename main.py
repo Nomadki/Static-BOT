@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import webbrowser
 
-bot = telebot.TeleBot('7409245588:AAEfGSDlUcddz4L3RgrJGpolcMKnvV1fPDQ')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types = ['photo', 'audio'])
 def get_photo(message):
